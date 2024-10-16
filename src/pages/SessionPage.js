@@ -10,8 +10,8 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import api from '../api';
 
-const vapi = new Vapi('bfb9f705-b723-4c52-94dd-bba505f82863'); // Initialize Vapi with your public key
-const assistantOptions = '1dc27c2a-8787-45ce-823f-4a9766459364';
+const vapi = new Vapi('7d0efbae-e97e-4773-8703-0c7e39cb2617'); // Initialize Vapi with your public key
+const assistantOptions = '0ad676ad-9658-496c-a284-52dfe8bfa01a';
 
 const SessionPage = () => {
   const navigate = useNavigate();
